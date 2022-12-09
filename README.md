@@ -1,7 +1,5 @@
 # Sergey Scoromnik
 
-![My foto](./my-foto.jpg)
-
 ## GitHub
 
 [GitHub](https://github.com/Slav468);
@@ -9,7 +7,6 @@
 ## Contact
 
 **Discord:** Sergey Scoromnik (@Slav468);
-**tel.:** +375 29 766 25 91;
 
 ## Social
 
