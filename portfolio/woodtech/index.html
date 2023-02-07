@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230207144045">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container">
+			<div class="logo">
+				<a href="">
+					<div class="logo__title">Woodtech</div>
+					<div class="logo__subtitle">Architecture</div>
+				</a>
+			</div>
+			<button type="button" class="menu__icon icon-menu">
+				<span></span>
+			</button>
+
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="index.html" class="menu__link">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="./project.html" class="menu__link">Проекты</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Услуги</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Блог</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Компания</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="social">
+					<div class="social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="vk">
+								<path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper__wrapper">
+			<div class="header__slider">
+				<div class="header__swiper">
+					<!-- Slides -->
+					<div class="header__slide"><picture><source srcset="img/blocks/swiper_header/house-1.webp" type="image/webp"><img src="img/blocks/swiper_header/house-1.jpg?_v=1675770045264" alt="image 1"></picture></div>
+					<div class="header__slide"><picture><source srcset="img/blocks/swiper_header/house-2.webp" type="image/webp"><img src="img/blocks/swiper_header/house-2.jpg?_v=1675770045264" alt="image 2"></picture></div>
+					<div class="header__slide"></div>
+					<div class="header__slide"></div>
+				</div>
+			</div>
+
+			<!-- Swiper control -->
+			<div class="swiper__control">
+
+				<!-- pagination -->
+				<div class="swiper__pagination">
+					<div class="swiper__pagination-prev">01</div>
+					<div class="swiper__pagination-next">03</div>
+				</div>
+
+				<!--scrollbar -->
+				<div class="swiper__scrollbar"><span></span></div>
+				<div class="swiper__button">
+					<div class="swiper__button-prev">
+						<img src="img/icons/p-left.svg?_v=1675770045264" alt="previos">
+					</div>
+					<!-- navigation buttons -->
+					<div class="swiper__button-next">
+						<img src="img/icons/p-right.svg?_v=1675770045264" alt="next">
+					</div>
+				</div>
+			</div>
+			<div class="swiper__about">
+				<div class="swiper__title">Woodhouse</div>
+				<div class="swiper__subtitle">дизайн на высоком уровне</div>
+				<div class="swiper__descr">Разработка и реализация красивых интерьеров из дерева ещё никогда не была так
+					доступна. Интерьеры из дерева различной породы сделают ваш дом уютным и тёплым, радуя вас и ваших
+					гостей.
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="page">
+		<section class="trust">
+			<div class="trust__container">
+				<div class="trust__clients trust-clients">
+					<div class="trust-clients__title">
+						<h2>Нам доверяют</h2>
+					</div>
+					<div class="trust-clients__divider"></div>
+					<div class="trust-clients__wrap">
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">860</div>
+							<div class="trust-clients__descr"> клиентов по всему миру</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">36</div>
+							<div class="trust-clients__descr">лучших франчайзи</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">38</div>
+							<div class="trust-clients__descr">пернатых попугаев</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">23</div>
+							<div class="trust-clients__descr">надёжных партнёна</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">108</div>
+							<div class="trust-clients__descr">производителей мебели</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">256</div>
+							<div class="trust-clients__descr">восьмибитных цветов</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">12</div>
+							<div class="trust-clients__descr">поставщиков</div>
+						</div>
+						<div class="trust-clients__item">
+							<div class="trust-clients__number">85</div>
+							<div class="trust-clients__descr">сотрудников</div>
+						</div>
+					</div>
+				</div>
+				<div class="trust__contacts trust-contacts">
+
+					<div class="trust-contacts__descr">
+						<p>Позвоните нам или оставьте заявку с сайта.</p>
+						<p>Мы перезвоним вам в течение 10 минут.</p>
+					</div>
+
+					<div class="trust-contacts__telefon">
+						<a href="tel:+74992467532">+7 (499) 246-75-32</a>
+					</div>
+
+					<button type="button" class="button trust-contacts__button">Оформить заявку сейчас</button>
+
+				</div>
+			</div>
+		</section>
+		<section class="best">
+			<div class="best__text best-text">
+				<div class="best-text__container">
+					<div class="best-text__descr">
+						<p>Представляем вам лучшие проекты, разработанные нашей командой профессионалов с любовью и
+							заботой о клиентах. Портфолио позволит вам выбрать интересующий стиль, цвет дерева, фактуру,
+							дизайн и расположение элементов.</p>
+					</div>
+					<div class="best-text__wrap">
+						<div class="best-text__title">\\ Лучшие работы</div>
+						<div class="best-text__subtitle">
+							<h2>Создаём тёплую атмосферу вашего отдыха</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="best-item__container">
+
+				<div class="best__works best-works">
+					<a href="">
+						<div class="best-works__item">
+							<div class="best-works__img">
+								<picture><source srcset="img/page/general/bg-image.webp" type="image/webp"><img src="img/page/general/bg-image.jpg?_v=1675770045264" alt="image_1"></picture>
+							</div>
+							<div class="best-works__wrap">
+								<svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.99984 2.13333C3.8769 2.13333 2.14977 3.84726 2.14977 5.95397C2.14977 6.13264 2.23606 7.15423 3.93967 9.72725C4.62591 10.7637 5.39687 11.7833 6.05371 12.6171C6.5054 12.0381 7.01059 11.3621 7.5059 10.6449C9.78414 7.34601 9.84991 6.08671 9.84991 5.95397C9.84991 3.84726 8.12278 2.13333 5.99984 2.13333ZM5.99984 0C9.31346 0 11.9997 2.66568 11.9997 5.95397C11.9997 9.20593 6.1008 16 6.00098 16C5.99987 16 5.99949 15.9992 5.99984 15.9975C6.03139 15.8434 0 9.24226 0 5.95397C0 2.66568 2.68622 0 5.99984 0Z" fill="#F88500" />
+								</svg>
+
+								<div class="best-works__location" title="Санкт-Петербург, Английский Пр.">
+									Санкт-Петербург, Английский Пр.</div>
+							</div>
+							<div class="best-works__descr">Современная гостиная в древесных тонах</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="best-works__item">
+							<div class="best-works__img">
+								<picture><source srcset="img/page/general/bg-image2.webp" type="image/webp"><img src="img/page/general/bg-image2.jpg?_v=1675770045264" alt="image_2"></picture>
+							</div>
+							<div class="best-works__wrap">
+								<svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.99984 2.13333C3.8769 2.13333 2.14977 3.84726 2.14977 5.95397C2.14977 6.13264 2.23606 7.15423 3.93967 9.72725C4.62591 10.7637 5.39687 11.7833 6.05371 12.6171C6.5054 12.0381 7.01059 11.3621 7.5059 10.6449C9.78414 7.34601 9.84991 6.08671 9.84991 5.95397C9.84991 3.84726 8.12278 2.13333 5.99984 2.13333ZM5.99984 0C9.31346 0 11.9997 2.66568 11.9997 5.95397C11.9997 9.20593 6.1008 16 6.00098 16C5.99987 16 5.99949 15.9992 5.99984 15.9975C6.03139 15.8434 0 9.24226 0 5.95397C0 2.66568 2.68622 0 5.99984 0Z" fill="#F88500" />
+								</svg>
+
+								<div class="best-works__location" title="Москва, Рублево-Успенское Ш.">Москва,
+									Рублево-Успенское Ш.</div>
+							</div>
+							<div class="best-works__descr">Панорамная чилаут зона для чтения и отдыха</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="best-works__item">
+							<div class="best-works__img">
+								<picture><source srcset="img/page/general/bg-image3.webp" type="image/webp"><img src="img/page/general/bg-image3.jpg?_v=1675770045264" alt="image_3"></picture>
+							</div>
+							<div class="best-works__wrap">
+								<svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.99984 2.13333C3.8769 2.13333 2.14977 3.84726 2.14977 5.95397C2.14977 6.13264 2.23606 7.15423 3.93967 9.72725C4.62591 10.7637 5.39687 11.7833 6.05371 12.6171C6.5054 12.0381 7.01059 11.3621 7.5059 10.6449C9.78414 7.34601 9.84991 6.08671 9.84991 5.95397C9.84991 3.84726 8.12278 2.13333 5.99984 2.13333ZM5.99984 0C9.31346 0 11.9997 2.66568 11.9997 5.95397C11.9997 9.20593 6.1008 16 6.00098 16C5.99987 16 5.99949 15.9992 5.99984 15.9975C6.03139 15.8434 0 9.24226 0 5.95397C0 2.66568 2.68622 0 5.99984 0Z" fill="#F88500" />
+								</svg>
+
+								<div class="best-works__location" title="Москва, На Якиманке">Москва, На Якиманке
+								</div>
+							</div>
+							<div class="best-works__descr">Уютный лофт в светлых древесных тонах</div>
+						</div>
+					</a>
+				</div>
+				<button class="button best-button">Показать ещё</button>
+			</div>
+		</section>
+		<section class="about">
+			<div class="about__container">
+				<div class="about__img">
+					<picture><source srcset="img/page/general/image.webp" type="image/webp"><img src="img/page/general/image.jpg?_v=1675770045264" alt=""></picture>
+					<div class="about__age about-age">
+						<div class="about-age__number">32</div>
+						<div class="about-age__descr">года<br> на рынке</div>
+					</div>
+
+				</div>
+				<div class="about__wrap">
+					<div class="about__text about-text">
+						<div class="about-text__title">
+							<h2>\\ коротко о нас</h2>
+						</div>
+						<div class="about-text__subtitle">Проектируем и создаём экологичный комфорт</div>
+						<div class="about-text__descr">В работе мы используем только лучшие материалы на рынке по
+							доступным ценам. Наши специалисты подберут наиболее подходящие породы дерева, специалисты по
+							дизайну разработают готовое решение.</div>
+					</div>
+					<div class="about-text__priorities about-priorities">
+						<div class="about-priorities__item">
+							<div class="about-priorities__wrap">
+								<div class="about-priorities__img">
+									<svg width="61" height="49" viewbox="0 0 61 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M48.3102 34.116C46.7273 34.4468 44.7935 34.4562 43.0486 34.1416L42.4713 34.0375L43.3934 32.5455C45.0642 29.8416 46.1279 27.8034 47.2603 25.1361C48.3796 22.4992 49.1363 20.1484 49.687 17.5973C49.9904 16.1919 50.367 13.9018 50.2896 13.9332C50.2713 13.9407 50.1322 14.4481 49.9806 15.0609C48.3791 21.5322 45.0477 28.2258 41.3366 32.4291C40.9227 32.8979 40.5572 33.262 40.5243 33.2383C40.1716 32.9835 38.8908 31.3372 38.2546 30.3207C37.6039 29.2811 36.8579 27.4815 36.6819 26.5272C36.3439 24.694 36.5581 23.2037 37.3986 21.5409C38.4132 19.5338 40.0319 17.735 42.9393 15.3842C46.3517 12.625 47.384 11.6332 48.4798 10.0611C49.2567 8.94654 49.9126 7.42336 50.1641 6.14994C50.2408 5.76142 50.3223 5.43471 50.3452 5.42387C50.417 5.38999 51.2177 6.63291 51.6886 7.5091C52.3864 8.8078 52.9709 10.1527 53.4491 11.5601C56.234 19.7569 56.0013 27.5587 52.8591 31.3536C52.2985 32.0305 51.6318 32.6262 50.9887 33.025C50.3215 33.4387 49.0267 33.9661 48.3108 34.1157L48.3102 34.116ZM31.1602 40.9576C28.1156 41.8925 25.2685 41.897 22.5194 40.971C19.5533 39.9724 16.4639 37.5493 14.5029 34.6836C13.6317 33.4105 13.1029 32.3942 11.837 29.5603C11.1809 28.0914 10.5045 26.6703 10.2751 26.2785C8.46846 23.1928 6.15492 21.6966 1.91892 20.8748L1.28591 20.7519L1.63509 20.4674C2.1698 20.0316 3.3573 19.253 4.1163 18.8404C5.26814 18.2144 8.21323 17.1209 9.76235 16.7439C15.42 15.3672 21.8161 15.3241 27.3282 16.6257C30.4473 17.3621 33.4538 18.6467 35.4645 20.1018L35.9664 20.4651L35.4567 21.6305C34.8998 22.9035 34.7227 23.5536 34.6601 24.5537C34.5233 26.7409 35.4675 29.1179 37.3645 31.3618C37.649 31.6983 37.8759 31.9871 37.8687 32.0035C37.8615 32.0199 37.6765 31.8844 37.4574 31.7024C33.0561 28.0441 28.4266 25.5356 23.4452 24.1096C22.1747 23.746 19.4478 23.1533 19.3075 23.2102C19.2887 23.2179 19.9489 23.5077 20.7746 23.8544C24.7691 25.5314 28.1255 27.4 31.123 29.6148C32.2062 30.4152 34.1099 32.0831 34.9551 32.972C36.1501 34.2289 37.3563 35.8509 37.7363 36.7119L37.9258 37.1413L37.3834 37.5832C35.7271 38.9323 33.0792 40.368 31.1606 40.9571L31.1602 40.9576ZM38.0145 32.1967C37.9736 32.1672 37.9491 32.1225 37.96 32.0975C37.9709 32.0725 38.017 32.0915 38.0625 32.1397C38.1568 32.2399 38.1256 32.277 38.0145 32.1967Z" fill="#F88500" />
+									</svg>
+								</div>
+								<div class="about-priorities__title">Безопасные материалы</div>
+							</div>
+							<div class="about-priorities__descr">
+								<p>Безопасность каждого из используемых материалов подтверждается соответствующим
+									сертификатом европейского стандарта. Мы используем продукцию только проверенных
+									годами брендов.</p>
+							</div>
+							<div class="about-priorities__link">Подробнее</div>
+						</div>
+						<div class="about-priorities__item">
+							<div class="about-priorities__wrap">
+								<div class="about-priorities__img">
+									<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_140_174)">
+											<path d="M20.921 0C17.0594 0 13.3136 1.11055 10.0883 3.21148C9.73597 3.44102 9.6358 3.91367 9.86439 4.26734C10.0931 4.62102 10.5639 4.72148 10.9163 4.49211C13.8944 2.55219 17.3539 1.52672 20.921 1.52672C31.0689 1.52672 39.3249 9.81383 39.3249 20C39.3249 30.1862 31.0689 38.4733 20.921 38.4733C10.7732 38.4733 2.51719 30.1862 2.51719 20C2.51719 14.8057 4.71492 9.82156 8.54679 6.3257C8.85757 6.04211 8.88045 5.55937 8.598 5.24734C8.31547 4.93531 7.83455 4.91227 7.52369 5.19594C3.37544 8.98055 0.996216 14.3764 0.996216 20C0.996216 31.0281 9.93436 40 20.921 40C31.9077 40 40.8458 31.0281 40.8458 20C40.8458 8.97187 31.9077 0 20.921 0Z" fill="#F88500" />
+											<path d="M34.457 10.9281C34.2236 10.5778 33.7512 10.4835 33.4022 10.7181C33.053 10.9524 32.9594 11.4266 33.193 11.7769C34.8164 14.2129 35.6745 17.0563 35.6745 20C35.6745 28.1658 29.0561 34.8092 20.921 34.8092C12.7859 34.8092 6.16752 28.1658 6.16752 20C6.16752 11.8343 12.7859 5.1909 20.921 5.1909C24.8017 5.1909 28.4662 6.69106 31.2392 9.41504C31.5395 9.71004 32.0211 9.70473 32.3146 9.4034C32.6085 9.10215 32.6032 8.61879 32.303 8.32395C29.244 5.31903 25.2019 3.66418 20.921 3.66418C11.9472 3.66418 4.64655 10.9924 4.64655 20C4.64655 29.0077 11.9472 36.3359 20.921 36.3359C29.8948 36.3359 37.1954 29.0077 37.1954 20C37.1954 16.7531 36.2485 13.6159 34.457 10.9281Z" fill="#F88500" />
+											<path d="M20.921 8.34619C18.4148 8.34619 16.0284 9.1351 14.0197 10.6278C13.682 10.8786 13.6111 11.3566 13.8609 11.6954C14.111 12.0346 14.5871 12.1057 14.9245 11.8548C16.6695 10.5582 18.743 9.87291 20.921 9.87291C26.4841 9.87291 31.0101 14.416 31.0101 20.0001C31.0101 24.6577 27.8707 28.6981 23.3756 29.8256C22.9681 29.9278 22.7204 30.3422 22.8222 30.7513C22.9086 31.0982 23.2187 31.3298 23.5595 31.3298C23.6205 31.3298 23.6826 31.3224 23.7445 31.3069C28.9179 30.0091 32.5311 25.3596 32.5311 20.0001C32.5311 13.574 27.3228 8.34619 20.921 8.34619Z" fill="#F88500" />
+											<path d="M14.5389 27.8439C12.183 25.9101 10.832 23.0511 10.832 20C10.832 17.8885 11.4726 15.8654 12.6847 14.1496C12.9277 13.8057 12.8468 13.3292 12.5042 13.0853C12.1617 12.8414 11.6869 12.9226 11.444 13.2665C10.0485 15.2419 9.31097 17.5704 9.31097 20C9.31097 23.511 10.8655 26.8007 13.5761 29.0257C13.7174 29.1417 13.8878 29.1982 14.0571 29.1982C14.2774 29.1982 14.4959 29.1026 14.6462 28.9181C14.9121 28.5916 14.864 28.1107 14.5389 27.8439Z" fill="#F88500" />
+											<path d="M27.5119 19.2366C27.0918 19.2366 26.7515 19.5783 26.7515 20C26.7515 23.2271 24.136 25.8524 20.921 25.8524C17.7061 25.8524 15.0906 23.2271 15.0906 20C15.0906 16.7729 17.7061 14.1476 20.921 14.1476C21.3412 14.1476 21.6815 13.8059 21.6815 13.3842C21.6815 12.9626 21.3412 12.6208 20.921 12.6208C16.8674 12.6208 13.5696 15.9311 13.5696 20C13.5696 24.0689 16.8674 27.3791 20.921 27.3791C24.9746 27.3791 28.2724 24.0689 28.2724 20C28.2724 19.5783 27.932 19.2366 27.5119 19.2366Z" fill="#F88500" />
+											<path d="M20.921 16.8958C19.2158 16.8958 17.8284 18.2884 17.8284 20.0001C17.8284 21.7117 19.2158 23.1044 20.921 23.1044C22.6262 23.1044 24.0136 21.7117 24.0136 20.0001C24.0136 18.2884 22.6262 16.8958 20.921 16.8958ZM20.921 21.5776C20.0543 21.5776 19.3494 20.87 19.3494 20.0001C19.3494 19.1301 20.0543 18.4225 20.921 18.4225C21.7877 18.4225 22.4926 19.1301 22.4926 20.0001C22.4926 20.87 21.7877 21.5776 20.921 21.5776Z" fill="#F88500" />
+										</g>
+										<defs>
+											<clipPath id="clip0_140_174">
+												<rect width="39.8496" height="40" fill="white" transform="translate(0.996216)" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+								<div class="about-priorities__title">Качественная древесина</div>
+							</div>
+							<div class="about-priorities__descr">
+								<p>В создании неповторимых интерьеров мы используем только качественную, проверенную
+									европейскую древесину, которая будет служить вам долгие годы, сохраняя свои качества
+									и безупречный внешний вид.</p>
+							</div>
+							<div class="about-priorities__link">Подробнее</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<section class="partners">
+			<div class="partners__overlay"></div>
+			<div class="partners__container">
+				<div class="partners__title">
+					<h2>Наши партнёры</h2>
+				</div>
+				<div class="partners__wrap">
+					<div class="partners__item">
+						<div class="partners__img"><picture><source srcset="img/page/general/milano_1.webp" type="image/webp"><img src="img/page/general/milano_1.png?_v=1675770045264" alt="milano"></picture></div>
+						<div class="partners__descr">
+							<p><span>Milano Parquet S.R.L.</span> Мы заботимся о древесине и тщательно следим за всем
+								производственным процессом.</p>
+						</div>
+					</div>
+					<div class="partners__item">
+						<div class="partners__img"><picture><source srcset="img/page/general/mazzucato_1.webp" type="image/webp"><img src="img/page/general/mazzucato_1.png?_v=1675770045264" alt="mazzucato"></picture>
+						</div>
+						<div class="partners__descr">
+							<p><span>Mazzucato Legnami</span> - итальянский производитель древесины, крупнейший лидер
+								рынка в Европе.</p>
+						</div>
+					</div>
+					<div class="partners__item">
+						<div class="partners__img"><picture><source srcset="img/page/general/fanfani_1.webp" type="image/webp"><img src="img/page/general/fanfani_1.png?_v=1675770045264" alt="fanfani"></picture></div>
+						<div class="partners__descr">
+							<p><span>Andrea Fanfani</span> создаёт уникальную итальянскую мебель ручной работы, как
+								продолжение вашего интерьера.</p>
+						</div>
+					</div>
+					<div class="partners__item">
+						<div class="partners__img"><picture><source srcset="img/page/general/cappelini_1.webp" type="image/webp"><img src="img/page/general/cappelini_1.png?_v=1675770045264" alt="cappelini"></picture>
+						</div>
+						<div class="partners__descr">
+							<p><span>Angelo Cappelini</span> воспроизводит мебель ушедших эпох: ампир, барокко, рококо и
+								многие другие.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="blog">
+			<div class="blog__container">
+				<div class="blog__title">Наш блог</div>
+				<div class="blog__wrap">
+					<div class="blog__items blog-items">
+						<div class="blog-items__img">
+							<picture><source srcset="img/page/general/blog1.webp" type="image/webp"><img src="img/page/general/blog1.png?_v=1675770045264" alt=""></picture>
+							<div class="blog-items__date">
+								<div class="blog-items__num">12</div>
+								<div class="blog-items__month">июля</div>
+							</div>
+						</div>
+						<div class="blog-items__text">
+							<div class="blog-items__title">Построили потрясающую деревянную лестницу</div>
+							<div class="blog-items__descr">
+								<p>Один из самых необыкновенных проектов нашей компании - винтовая деревянная лестница в
+									старинном стиле.</p>
+							</div>
+							<div class="blog-items__link">
+								<a href="">Читать полностью</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="blog__items blog-items">
+						<div class="blog-items__img">
+							<picture><source srcset="img/page/general/blog2.webp" type="image/webp"><img src="img/page/general/blog2.png?_v=1675770045264" alt=""></picture>
+							<div class="blog-items__date">
+								<div class="blog-items__num">12</div>
+								<div class="blog-items__month">июля</div>
+							</div>
+						</div>
+						<div class="blog-items__text">
+							<div class="blog-items__title">Построили потрясающую деревянную лестницу</div>
+							<div class="blog-items__descr">
+								<p>Один из самых необыкновенных проектов нашей компании - винтовая деревянная лестница в
+									старинном стиле.</p>
+							</div>
+							<div class="blog-items__link">
+								<a href="">Читать полностью</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="blog__items blog-items">
+						<div class="blog-items__link">
+							<a href="">Перейти ко всем <br> записям блога</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+
+			<div class="footer__wrap">
+				<div class="logo footer__logo footer-logo">
+					<a href="">
+						<div class="logo__title footer-logo__title">Woodtech</div>
+						<div class="logo__subtitle footer-logo__subtitle">Architecture</div>
+					</a>
+				</div>
+				<div class="footer__about footer-about">
+					<div class="footer-title">Коротко о нас</div>
+					<div class="footer-about__descr">
+						<p>Мы досконально прорабатываем, а затем обсуждаем с нашими клиентами внешний вид каждого изделия. Мы крайне редко повторяемся, ведь мы знаем, что вы цените индивидуальность и не готовы довольствоваться готовыми решениями.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__wrapper">
+				<div class="footer__menu footer-menu">
+					<div class="footer-title">Меню</div>
+					<div class="divider footer-menu__divider"></div>
+					<div class="footer-menu__wrap ">
+						<nav class="footer-menu__nav">
+							<ul class="footer-menu__list">
+								<li class="footer-menu__item">
+									<a href="" class="footer-menu__link">Главная</a>
+								</li>
+								<li class="footer-menu__item">
+									<a href="" class="footer-menu__link">Проекты</a>
+								</li>
+								<li class="footer-menu__item">
+									<a href="" class="footer-menu__link">Услуги</a>
+								</li>
+								<li class="footer-menu__item">
+									<a href="" class="footer-menu__link">Блог</a>
+								</li>
+								<li class="footer-menu__item">
+									<a href="" class="footer-menu__link">Компания</a>
+								</li>
+							</ul>
+
+						</nav>
+					</div>
+				</div>
+
+				<div class="footer__services footer-services">
+					<div class="footer-title">Услуги</div>
+					<div class="divider footer-services__divider"></div>
+					<div class="footer-services__wrap">
+						<div class="footer-services__nav">
+							<ul class="footer-menu__list">
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Дизайн интерьера</a>
+								</li>
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Проектирование</a>
+								</li>
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Поставка дерева</a>
+								</li>
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Ремонт</a>
+								</li>
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Концепт</a>
+								</li>
+								<li class="footer-services__item">
+									<a href="" class="footer-services__link">Выезд мастера</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="footer__social footer-social">
+				<div class="footer-title">Мы в соц. сетях</div>
+				<div class="divider footer-social__divider"></div>
+				<div class="footer-social__descr">
+					<p>Подпишитесь на нас в социальных сетях, чтобы не пропустить выход новых невероятных проектов, разработанных для наших клиентов по всему миру.</p>
+				</div>
+				<div class="social footer-social__wrap">
+					<div class="social__item footer-social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item footer-social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item footer-social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="social__item footer-social__item">
+						<a href="">
+							<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="vk">
+								<path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+	<script src="js/app.min.js?_v=20230207144045"></script>
+</body>
+
+
+</html>
