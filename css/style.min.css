@@ -413,19 +413,19 @@ progress {
 	display: none !important;
 }
 @font-face {
-	font-family: Poppins;
-	src: url(../../fonts/Poppins-Medium.woff2) format("woff2");
+	font-family: "Poppins";
+	src: url("../../fonts/Poppins-Medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
-	font-family: Poppins;
-	src: url(../../fonts/Poppins-Bold.woff2) format("woff2");
+	font-family: "Poppins";
+	src: url("../../fonts/Poppins-Bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 }
 * {
-	font-family: Poppins, sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 .wrapper {
 	max-width: 1650px;
@@ -473,7 +473,7 @@ progress {
 	width: 100%;
 	padding-top: 15%;
 	padding-bottom: 15%;
-	margin-left: 0;
+	/* margin-left: 0; */
 	display: flex;
 }
 .header__wrapper-wrap {
@@ -545,7 +545,7 @@ progress {
 }
 .sidepanel {
 	position: fixed;
-	left: -5%;
+	left: -5rem;
 	top: 50%;
 	z-index: 2;
 	display: flex;
@@ -1453,7 +1453,7 @@ progress {
 @media (max-width: 1200px) {
 	.sidepanel {
 		left: -12.5%;
-		top: 45%;
+		top: 40%;
 	}
 	.contacts {
 		margin-bottom: 0.625rem;
