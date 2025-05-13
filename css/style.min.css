@@ -1097,7 +1097,7 @@ progress {
   column-gap: 1.0625rem;
   row-gap: 1.0625rem;
   justify-content: center;
-  width: 90%;
+  width: 100%;
 }
 .portfolio-works__item {
   position: relative;
